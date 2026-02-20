@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOps", "OOps.csproj", "{B4C4A874-E6AD-4746-9ED0-5840381C18BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColleectionsExample", "..\ColleectionsExample\ColleectionsExample.csproj", "{4BEC0F48-2DA4-4EF9-8F20-DA7EFE7F3566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C4A874-E6AD-4746-9ED0-5840381C18BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C4A874-E6AD-4746-9ED0-5840381C18BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C4A874-E6AD-4746-9ED0-5840381C18BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C4A874-E6AD-4746-9ED0-5840381C18BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEC0F48-2DA4-4EF9-8F20-DA7EFE7F3566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEC0F48-2DA4-4EF9-8F20-DA7EFE7F3566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEC0F48-2DA4-4EF9-8F20-DA7EFE7F3566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEC0F48-2DA4-4EF9-8F20-DA7EFE7F3566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
