@@ -1,0 +1,7 @@
+D:\wipro26\Day8_1\SolidWithExamples\bin\Debug\SolidWithExamples.exe.config
+D:\wipro26\Day8_1\SolidWithExamples\bin\Debug\SolidWithExamples.exe
+D:\wipro26\Day8_1\SolidWithExamples\bin\Debug\SolidWithExamples.pdb
+D:\wipro26\Day8_1\SolidWithExamples\obj\Debug\SolidWithExamples.csproj.AssemblyReference.cache
+D:\wipro26\Day8_1\SolidWithExamples\obj\Debug\SolidWithExamples.csproj.CoreCompileInputs.cache
+D:\wipro26\Day8_1\SolidWithExamples\obj\Debug\SolidWithExamples.exe
+D:\wipro26\Day8_1\SolidWithExamples\obj\Debug\SolidWithExamples.pdb
