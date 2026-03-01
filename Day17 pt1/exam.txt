@@ -1,0 +1,19 @@
+1) Which tag used to display data in sequential format 
+
+2) Write the syntax for password control
+
+3) Write syntax for datalist
+
+4) Which tag used to display WYSIWYG format
+
+5) Write syntax to place image control
+
+6) How to divide page into multiple partitions (write the tag)
+
+7) Which property used to check field is mandetory
+
+8) How to specify largest and smallest value in textbox number
+
+9) Write pattern for your aadhar card
+
+10) CSS stands for 

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <canvas id="canvas" style='background-color:#EEE;' width='500px' height='200px' />
+    <script type='text/javascript'>
+    var canvas= document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+<!--from ww  w.j  a v a2  s  .  c o m-->
+    canvas.addEventListener('mousedown', function(e) {
+        this.down = true;
+        this.X = e.pageX ;
+        this.Y = e.pageY ;
+    }, 0);
+    canvas.addEventListener('mouseup', function() {
+        this.down = false;
+    }, 0);
+    canvas.addEventListener('mousemove', function(e) {
+        if(this.down) {
+             with(ctx) {
+                beginPath();
+                moveTo(this.X, this.Y);
+                lineTo(e.pageX , e.pageY );
+                ctx.lineWidth=1;
+                stroke();
+             }
+             this.X = e.pageX ;
+             this.Y = e.pageY ;
+        }
+    }, 0);
+
+    </script>
+</body>
+</html>

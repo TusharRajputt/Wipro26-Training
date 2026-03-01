@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <canvas id="canvas" style='background-color:#EEE;' width='500px' height='200px' />
+    <script type='text/javascript'>
+    var stage= document.getElementById('canvas');
+    var context = stage.getContext('2d');
+<!--from w w w.  j av a 2s  .  com-->
+    canvas.addEventListener("mousemove", function(e){
+        if (!e) e = window.event;
+        var ctx = canvas.getContext("2d");
+        var x = e.offsetX==undefined?e.layerX:e.offsetX;
+        var y = e.offsetY==undefined?e.layerY:e.offsetY;
+        ctx.fillRect(x, y, 3, 3);
+    });
+
+
+    </script>
+</body>
+</html>

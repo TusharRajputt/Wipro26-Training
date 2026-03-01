@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js">
+    </script>
+    <script>
+        var myModule = angular.module('myAngularApplication', []);
+        myModule.controller('booksController', function ($scope) {
+            $scope.message = "Hi I am Neha from UI Training...";
+            this.greeting = "Good Day for All...Thank You EveryOne";
+            $scope.books = [];
+
+            $scope.fetchBooks = function () {
+                $scope.books = [
+                    { ID: 1, BookName: "Learn C", AuthorName: "Yashwanth Kanetkar", ISBN: "ISB1001" },
+                    { ID: 2, BookName: "C++ Programming", AuthorName: "Ivan Baris", ISBN: "ISB1002" },
+                    { ID: 3, BookName: "Java 8", AuthorName: "Venu Gopal", ISBN: "ISB8283" },
+                    { ID: 4, BookName: ".NET Black Book", AuthorName: "Kanetkar", ISBN: "ISB28344" },
+                    { ID: 5, BookName: "TFS Coding", AuthorName: "HallDay", ISBN: "ISB2883" }
+                ];
+            }
+        });
+    </script>
+
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="myAngularApplication">
+    <div ng-controller="booksController">
+        <h3>
+            {{ message }}
+        </h3>
+        <h4 ng-controller="booksController as booksCtrl">
+            {{ booksCtrl.greeting }}
+        </h4>
+        <input type="button" ng-click="fetchBooks()" value="Fetch Books" class="btn btn-success">
+        <table border="3" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        BookName
+                    </th>
+                    <th>
+                        Author Name
+                    </th>
+                    <th>
+                        ISBN
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="book in books">
+                    <td>
+                        {{ book.ID}}
+                    </td>
+                    <td>
+                        {{book.BookName}}
+                    </td>
+                    <td>
+                        {{book.AuthorName}}
+                    </td>
+                    <td>
+                        {{book.ISBN}}
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+</html>

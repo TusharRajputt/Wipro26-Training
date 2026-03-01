@@ -1,0 +1,67 @@
+1) Which tag used to represent heading for table cell 
+
+a) <td> b) <tr> c) <th> d) <thead> 
+
+2) How to Merge table cells in html
+
+a) rowspan b) headspan c) titlespan d) colspan 
+
+3) Which attribute used to set cursor on particular control
+
+a) focus b) autofocus c) autoset d) blur 
+
+4) Which tag used to display data in typed format
+
+a) <p> b) <div> c) <span> d) <pre> 
+
+5) To start definition and answers what is the starting tag.
+
+a) <dt> b) <dl> c) <dd> d) all
+
+6) Write the correct syntax for image 
+
+a) <img src="image.jpg" /> 
+
+b) <img src="image.jpg" height=300 width=300 /> 
+
+c) <img src="image.jpg" alt="not found " />
+
+d) all the above
+
+7) What is the correct syntax for anchor tag
+
+a) <a href="www.google.com">Google Page<a>
+
+b) <a href="http://www.google.com">Google Page</a>
+
+c) <a href="http://www.google.com" target="_blank">Google Page</a>
+
+d) All the above 
+
+8) What are default types for unordered list
+
+a) bullet b) sphere c) dise d) None of above 
+
+9) How to make a text-box content to be not updated 
+
+a) Disable B) Readonly C) Blocked D) All the Above 
+
+10) What is syntax for password 
+
+a) <input type="pass" /> 
+b) <input type="secret" /> 
+c) <input type="hide" /> 
+d) <input type="password" /> 
+
+11) How to Refresh entire form values 
+
+a) <input type="refresh" /> 
+
+b) <input type="load" /> 
+
+c) <input type="reset" /> 
+
+d) <input type="submit" /> 
+
+
+

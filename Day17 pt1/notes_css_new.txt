@@ -1,0 +1,409 @@
+What is a CSS grid?
+A grid can be defined as an intersecting set of vertical and horizontal lines. CSS Grid layout separates a page into major sections. Grid property offers a grid-based layout system having rows and columns. It makes the designing of web pages easy without positioning and floating. The grid layout gives us a way to create grid structures depicted in CSS, not in HTML.
+
+Similar to the table, it enables a user to align the elements into rows and columns. But compare to tables, it is easy to design layout with the CSS grid. We can define columns and rows on the grid by using grid-template-rows and grid-template-columns properties.
+
+<html>   
+    
+<head>   
+  
+    <style>   
+        .main {   
+            display: grid;   
+            grid: auto auto / auto auto auto auto;   
+            grid-gap: 10px;   
+            background-color: blue;   
+            padding: 10px;   
+        }   
+            
+        .num {   
+            background-color: lightblue;   
+            text-align: center;   
+            color: black;  
+            padding: 10px 10px;   
+            font-size: 30px;   
+        }   
+    </style>   
+</head>   
+    
+<body>     
+    <div class="main">   
+        <div class="num">One</div>   
+        <div class="num">Two</div>   
+        <div class="num">Three</div>      
+        <div class="num">Four</div>   
+        <div class="num">Five</div>   
+        <div class="num">Six</div>   
+        <div class="num">Seven</div>   
+        <div class="num">Eight</div>   
+    </div>   
+    
+</body>   
+    
+</html>   
+
+How to use the CSS grid?
+A grid container can be created by declaring the display: grid or display: inline-grid on an element. Grid container contains the items of a grid that are placed inside the rows and columns.
+
+The CSS grid layout module creates a grid-based layout system. Using rows and columns, it designs the webpage without float and positioning. The CSS grid is supported in major browsers such as Google Chrome, Internet Explorer, Firefox, Safari, and Opera.
+
+Similar to the table, the grid enables a user to align the elements into columns and rows. But compare to tables, the designing of the layout is easier with the CSS grid. There are some of the properties of CSS grid are listed as follows:
+
+grid-template-columns: It is used to specify the size of the columns.
+grid-template-rows: It is used to specify the row size.
+grid-template-areas: It is used to specify the grid layout by using the named items.
+grid-auto-rows: It is used to specify the automatic size of the rows.
+grid-auto-columns: It is used to specify the automatic size of the columns.
+grid-auto-flow: It is used to specify how to place auto-placed items and the automatic row size.
+There are also some other properties of CSS grid such as grid-column-gap, grid-row-gap, grid-gap, grid-column-lines, grid-row-lines, and many more.
+
+Syntax
+
+.class {  
+display: grid;  
+}  
+We will see the examples of creating the grid by using the display: grid and display: inline-grid.
+
+Example
+
+In this example, we are also using grid-template-rows and grid-template-columns property. Here, we are presenting five rows in which the size of the first three is auto, and the last two rows size is 50px. There are also three columns with the size auto.
+
+<!DOCTYPE html>  
+<html>  
+  
+<head>  
+<style>  
+.main{  
+display: grid;  
+grid-template-rows: auto auto auto 50px 50px;  
+grid-template-columns: auto auto auto;  
+background-color: gray;  
+padding: 5px;  
+}  
+.num {  
+background-color: lightgray;  
+border: 1px solid white;  
+padding: 20px;  
+font-size: 30px;  
+text-align: center;  
+}  
+  
+  
+</style>  
+</head>  
+  
+<body>  
+<div class="main">  
+<div class="num">One</div>  
+<div class="num">Two</div>  
+<div class="num">Three</div>  
+<div class="num">Four</div>  
+<div class="num">Five</div>  
+<div class="num">Six</div>  
+<div class="num">Seven</div>  
+<div class="num">Eight</div>  
+</div>  
+  
+</body>  
+  
+</html>  
+
+_____________________________________
+
+How to use the CSS grid?
+A grid container can be created by declaring the display: grid or display: inline-grid on an element. Grid container contains the items of a grid that are placed inside the rows and columns.
+
+The CSS grid layout module creates a grid-based layout system. Using rows and columns, it designs the webpage without float and positioning. The CSS grid is supported in major browsers such as Google Chrome, Internet Explorer, Firefox, Safari, and Opera.
+
+Similar to the table, the grid enables a user to align the elements into columns and rows. But compare to tables, the designing of the layout is easier with the CSS grid. There are some of the properties of CSS grid are listed as follows:
+
+grid-template-columns: It is used to specify the size of the columns.
+grid-template-rows: It is used to specify the row size.
+grid-template-areas: It is used to specify the grid layout by using the named items.
+grid-auto-rows: It is used to specify the automatic size of the rows.
+grid-auto-columns: It is used to specify the automatic size of the columns.
+grid-auto-flow: It is used to specify how to place auto-placed items and the automatic row size.
+There are also some other properties of CSS grid such as grid-column-gap, grid-row-gap, grid-gap, grid-column-lines, grid-row-lines, and many more.
+
+Syntax
+
+.class {  
+display: grid;  
+}  
+We will see the examples of creating the grid by using the display: grid and display: inline-grid.
+
+Example
+
+In this example, we are also using grid-template-rows and grid-template-columns property. Here, we are presenting five rows in which the size of the first three is auto, and the last two rows size is 50px. There are also three columns with the size auto.
+
+<!DOCTYPE html>  
+<html>  
+  
+<head>  
+<style>  
+.main{  
+display: grid;  
+grid-template-rows: auto auto auto 50px 50px;  
+grid-template-columns: auto auto auto;  
+background-color: gray;  
+padding: 5px;  
+}  
+.num {  
+background-color: lightgray;  
+border: 1px solid white;  
+padding: 20px;  
+font-size: 30px;  
+text-align: center;  
+}  
+  
+  
+</style>  
+</head>  
+  
+<body>  
+<div class="main">  
+<div class="num">One</div>  
+<div class="num">Two</div>  
+<div class="num">Three</div>  
+<div class="num">Four</div>  
+<div class="num">Five</div>  
+<div class="num">Six</div>  
+<div class="num">Seven</div>  
+<div class="num">Eight</div>  
+</div>  
+  
+</body>  
+  
+</html>  
+
+__________________________________________________________
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #fff;
+  color: #444;
+}
+
+h1, p {
+  margin: 0 0 1em 0;
+}
+
+/* no grid support? */
+.sidebar {
+  float: left;
+  width: 19.1489%;
+}
+
+.content {
+  float: right;
+  width: 79.7872%;
+}
+
+/* make a grid */
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+
+.header, .footer {
+  grid-column: 1 / -1;
+  /* needed for the floated layout */
+  clear: both;
+}
+
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+
+<div class="wrapper">
+  <header class="header">My header</header>
+  <aside class="sidebar">Sidebar</aside>
+  <article class="content">
+    <h1>2 column, header and footer</h1>
+    <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+  </article>
+  <footer class="footer">My footer</footer>
+</div>
+
+________________________________________________
+
+::before
+In CSS, ::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default.
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a::before {
+  content: '🔗';
+}
+
+.local-link::before {
+  content: url('../../media/examples/firefox-logo.svg');
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+<p>
+  Learning resources for web developers can be found all over the internet. Try out
+  <a href="https://web.dev/">web.dev</a>, <a href="https://www.w3schools.com/">w3schools.com</a> or our
+  <a href="https://developer.mozilla.org/" class="local-link">MDN web docs</a>.
+</p>
+
+
+_______________________________________________________
+
+
+a::after {
+  content: ' (' attr(href) ')';
+}
+
+.dead-link {
+  text-decoration: line-through;
+}
+
+.dead-link::after {
+  content: url('../../media/warning.svg');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+
+<p>
+  The sailfish is named for its sail-like dorsal fin and is widely considered the fastest fish in the ocean.
+  <a href="https://en.wikipedia.org/wiki/Sailfish">You can read more about it here</a>.
+</p>
+
+<p>
+  The red lionfish is a predatory scorpionfish that lives on coral reefs of the Indo-Pacific Ocean and more recently in
+  the western Atlantic. <a href="" class="dead-link">You can read more about it here</a>.
+</p>
+
+
+::after
+In CSS, ::after creates a pseudo-element that is the last child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default.
+
+a::after {
+  content: ' (' attr(href) ')';
+}
+
+.dead-link {
+  text-decoration: line-through;
+}
+
+.dead-link::after {
+  content: url('../../media/warning.svg');
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+<p>
+  The sailfish is named for its sail-like dorsal fin and is widely considered the fastest fish in the ocean.
+  <a href="https://en.wikipedia.org/wiki/Sailfish">You can read more about it here</a>.
+</p>
+
+<p>
+  The red lionfish is a predatory scorpionfish that lives on coral reefs of the Indo-Pacific Ocean and more recently in
+  the western Atlantic. <a href="" class="dead-link">You can read more about it here</a>.
+</p>
+
+
+HTML
+HTML
+Play
+Copy to Clipboard
+
+<p class="boring-text">Here is some plain old boring text.</p>
+<p>Here is some normal text that is neither boring nor exciting.</p>
+<p class="exciting-text">Contributing to MDN is easy and fun.</p>
+CSS
+CSS
+Play
+Copy to Clipboard
+
+.exciting-text::after {
+  content: " <- EXCITING!";
+  color: green;
+}
+
+.boring-text::after {
+  content: " <- BORING";
+  color: red;
+}
+
+
+_________________________________________________________
+
+
+We can also support keyboard users with this technique, by adding a tabindex of 0 to make each span keyboard focusable, and using a CSS :focus selector. This shows how flexible ::before and ::after can be, though for the most accessible experience a semantic disclosure widget created in some other way (such as with details and summary elements) is likely to be more appropriate.
+
+HTML
+HTML
+Play
+Copy to Clipboard
+
+<p>
+  Here we have some
+  <span tabindex="0" data-descr="collection of words and punctuation">
+    text
+  </span>
+  with a few
+  <span tabindex="0" data-descr="small popups that appear when hovering">
+    tooltips</span
+  >.
+</p>
+CSS
+CSS
+Play
+Copy to Clipboard
+
+span[data-descr] {
+  position: relative;
+  text-decoration: underline;
+  color: #00f;
+  cursor: help;
+}
+
+span[data-descr]:hover::after,
+span[data-descr]:focus::after {
+  content: attr(data-descr);
+  position: absolute;
+  left: 0;
+  top: 24px;
+  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #ffffcc;
+  padding: 12px;
+  color: #000000;
+  font-size: 14px;
+  z-index: 1;
+}

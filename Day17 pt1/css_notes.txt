@@ -1,0 +1,42 @@
+CSS (Cascading Style Sheet)
+
+
+Allows you to define styling to the given document. 
+
+There are various types of css as
+
+(i) Inline Css : Allows you to define styling using style property, will be allowed to style individual tags.  We cannot reuse the styling properties. 
+
+<div> tag : used to divide the page into multiple partitions. 
+
+(ii) internal Css
+
+(iii) External Css
+
+
+internal css : Allows you to apply styling for entire document. 
+
+To be defined in the <head></head> section, as this tag contains global content for the given page. 
+
+You can define internal css, using 
+
+<style> </style> tag. 
+
+You can define style tag for css as 
+
+<style type="text/css"></style>
+
+or by default <style> </style> tag takes css as default. 
+
+<style></style>
+
+
+<header></header> Used to define header for the given page. 
+
+<footer></footer> : Used to define footer to the page. 
+
+<section></section> : Defines the content section for the given page
+
+<article></article> : Contains particular information about section.
+
+

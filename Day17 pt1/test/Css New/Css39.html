@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <canvas id="canvas" style='background-color:#EEE;' width='500px' height='200px' />
+    <script type='text/javascript'>
+    function draw(radius) {<!--  w  w  w .  j av a 2 s.c om-->
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+        var x = 190,
+            y = 140;
+        var start_angle = 1.5 * Math.PI;
+        var end_angle = 1.5 * Math.PI;
+        var increase_end_angle = 0;
+        setInterval(function () {
+            context.save();
+            context.clearRect(0, 0, 500, 400);
+            context.beginPath();
+            increase_end_angle = increase_end_angle + 11 / 500;
+            dynamic_end_angle = end_angle + increase_end_angle;
+            context.arc(x, y, radius, start_angle, dynamic_end_angle, false);
+            context.stroke();
+            context.restore();
+            if (dynamic_end_angle > 3.5 * Math.PI) {
+                increase_end_angle = 0;
+                draw(radius + 10);
+            }
+        }, 3);
+    }
+    draw(30);
+    </script>
+</body>
+</html>

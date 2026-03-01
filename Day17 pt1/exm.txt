@@ -1,0 +1,19 @@
+1) Which symbol used to identify id in css file
+
+a) @ b) . c) # d) $
+
+2) How to identify a division with class name main
+
+a) div#main b) div$main c) divmain d) div.main
+
+3) To place the controls in proper table and div system which layout is best
+
+a) Grid b) flex c) Both d) None
+
+4) Write the syntax to change the image to stretch to page
+
+a) pagesize : Stretch b) pagesize : cover c) pagesize : auto d) None
+
+5) Which property used to make responsive web pages
+
+a) Stretch b) Map c) Auto d) cover
