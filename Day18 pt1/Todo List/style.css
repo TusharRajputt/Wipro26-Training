@@ -1,0 +1,38 @@
+#taskInput {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+#decrement, #increment {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+/* for buttons  */
+button {
+    padding: 10px 20px;
+    background-color: hsl(107, 78%, 55%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-task-button {
+    background-color: #e74c3c;
+}
