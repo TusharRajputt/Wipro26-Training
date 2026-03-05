@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 24px;
+	background: #f5f5f5;
+}
+
+nav {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 8px 14px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	background: #1f6feb;
+	color: #fff;
+}
+
+#content {
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+	max-width: 700px;
+}
+
+#contactForm {
+	display: grid;
+	gap: 10px;
+	max-width: 420px;
+}
+
+#contactForm input,
+#contactForm textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+#contactForm textarea {
+	min-height: 110px;
+	resize: vertical;
+}
